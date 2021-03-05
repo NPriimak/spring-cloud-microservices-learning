@@ -1,4 +1,4 @@
-resources/mail-props.properties
+/notification-service/src/main/resources/mail-props.properties
 # Project exclude paths
 /.gradle/
 /account-service/.gradle/

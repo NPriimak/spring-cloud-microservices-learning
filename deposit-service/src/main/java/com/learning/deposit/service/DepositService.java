@@ -10,8 +10,6 @@ public interface DepositService {
 
     Optional<Deposit> getById(long depositId);
 
-    Deposit create(Deposit deposit);
-
     Deposit update(Deposit deposit);
 
     DepositResponseDto deposit(DepositRequestDto depositRequestDto);

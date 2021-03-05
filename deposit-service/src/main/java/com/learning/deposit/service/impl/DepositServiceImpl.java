@@ -36,12 +36,7 @@ public class DepositServiceImpl implements DepositService {
         return depositRepository.findById(depositId);
     }
 
-    @Override
-    public Deposit create(Deposit deposit) {
-        return depositRepository.save(deposit);
-    }
-
-    @Override
+    @Override //in progress
     public Deposit update(Deposit deposit) {
         Optional<Deposit> oldDeposit = depositRepository.findById(deposit.getDepositId());
         if (oldDeposit.isPresent()){

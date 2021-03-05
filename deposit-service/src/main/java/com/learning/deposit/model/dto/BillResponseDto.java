@@ -1,12 +1,14 @@
 package com.learning.deposit.model.dto;
 
-import lombok.Builder;
-import lombok.Data;
+import lombok.*;
 
 import java.math.BigDecimal;
 import java.time.OffsetDateTime;
 
-@Data
+@AllArgsConstructor
+@Getter
+@Setter
+@ToString
 @Builder
 public class BillResponseDto {
 

@@ -1,11 +1,15 @@
 package com.learning.deposit.model.dto;
 
-import lombok.Data;
+import lombok.*;
 
 import java.math.BigDecimal;
 import java.time.OffsetDateTime;
 
-@Data
+@AllArgsConstructor
+@Getter
+@Setter
+@ToString
+@Builder
 public class DepositResponseDto {
 
     private final Long depositId;
